@@ -1,1 +1,15 @@
+# OS junk files
+[Tt]humbs.db
+*.DS_Store
+
+# Application Files
+application/*
+!application/index.html
+application/controllers/*
+!application/controllers/index.html
+application/libraries/*
+!application/libraries/index.html
+application/models/*
+!application/models/index.html
+
 Pop MVC.esproj/
