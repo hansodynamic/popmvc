@@ -1,7 +1,7 @@
-# Welcome to PopMVC 2.0
+# Welcome to PopMVC
 
 PopMVC is a lightweight, modular MVC framework aimed at large-scale web applications.
-Included are libraries for Amazon Web Services, Open Auth 2.0 connectivity and MySQL database interaction.
+Included is a simple library for MySQL database interaction.
 
 All code has been developed by Hanso Dynamic Limited.
 
