@@ -1,0 +1,15 @@
+RewriteEngine on
+
+# Set the Rewrite Base (if installation on domain, leave as / )
+RewriteBase /popmvc/
+
+# Ignore Files and Directories
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# Prevent Trailing Slash
+RewriteRule ^(.+)/$ $1 [L,R=301]
+
+# Rewrite the URL to pass the correct URL variables
+RewriteRule ^index\.html$ index.php
+RewriteRule ^([a-zA-Z0-9-_\/]+)((\.html?)?)$ index.php?u=$1
